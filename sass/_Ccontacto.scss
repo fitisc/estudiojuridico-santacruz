@@ -1,0 +1,27 @@
+/*selectores form de contacto*/
+
+.sizeLegend{
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    word-spacing: 3px;  
+}
+
+.botonPress{
+    background-image: linear-gradient(to top, rgb(187, 205, 245), rgb(121, 133, 182));
+}
+.botonPress:hover{
+    background-image: linear-gradient(to top, rgb(121, 133, 182), rgb(187, 205, 245));
+}
+
+.textContacto{
+    color: rgb(44, 36, 54);
+    font-style: normal;
+    font-size: 2.3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    word-spacing: 3px;
+    line-height: 2rem;
+    
+}

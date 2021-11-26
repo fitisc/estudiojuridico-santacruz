@@ -1,0 +1,21 @@
+*{
+    font-size: 1.5rem ;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    padding: 0.5rem;
+    height: auto;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+//fondos//
+$fondogradientverde:linear-gradient(to bottom,rgb(149, 199, 157),rgb(76, 104, 81));
+$colorfondo:rgb(180, 200, 243);
+
+$fondogral: url(../img/symphony/symphony.png);
+
+$widht: 100%;
+$height: 100vh;
+

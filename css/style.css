@@ -1,0 +1,611 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+* {
+  font-size: 1.5rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  padding: 0.5rem;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ordenDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#95c79d), to(#4c6851));
+  background-image: linear-gradient(to bottom, #95c79d, #4c6851);
+  background-position: top;
+  background-size: cover;
+}
+
+.div__h5, .div__h5--horario, .div__h5--direccion, .div__h5--telefono {
+  color: #f8eddb;
+  padding: 5px;
+  display: inline-block;
+  width: 30vw;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-family: Tahoma, sans-serif;
+  font-weight: 700;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  line-height: 2.4rem;
+  word-spacing: 3px;
+}
+
+.div__h5--horario {
+  text-align: left;
+}
+
+.div__h5--direccion {
+  text-align: center;
+}
+
+.div__h5--telefono {
+  text-align: right;
+}
+
+.colorNav {
+  background-image: url(../img/symphony/symphony.png);
+  background-attachment: fixed;
+  background-repeat: repeat-x repeat-y;
+}
+
+#colorNav {
+  background-image: url(../img/symphony/symphony.png);
+  background-attachment: fixed;
+  background-repeat: repeat-x repeat-y;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.header__logoSbg {
+  width: 30%;
+}
+
+.logoSbg {
+  width: 10%;
+}
+
+.textBoton {
+  color: #5f5d5d;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+  color: black;
+}
+
+.encabezadoNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  list-style: none;
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 15px 10px;
+  word-spacing: 5px;
+}
+
+.footer__ul {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#95c79d), to(#4c6851));
+  background-image: linear-gradient(to bottom, #95c79d, #4c6851);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding: 1px 5px;
+}
+
+.icons {
+  width: 40px;
+}
+
+/*selectores para imagen y frase heroe del index*/
+.textBlack {
+  background-color: #e4e4e7;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  padding: 10px 25px;
+}
+
+.div__h1 {
+  background-image: url(../img/plazasobremonteytribunales.png);
+  background-repeat: no-repeat;
+  -o-object-fit: cover cover;
+     object-fit: cover cover;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  /* aca el tamaño que vos eligas*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div__h1--text {
+  color: #f5f6f7;
+  font-family: monospace;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  text-shadow: 5px 5px 3px black;
+  font-weight: 600;
+}
+
+.article__h2 {
+  color: #575454;
+  font-style: italic;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  text-align: left;
+  word-spacing: 2px;
+  padding: 3px;
+  position: absolute;
+}
+
+/*DETALLES DE PAGINA STAFF (NOSOTROS)*/
+/*selectores  para nombres de staff*/
+.imagenHeroe {
+  background-image: url(../img/fotostaff.png);
+  background-attachment: scroll;
+  background-size: cover;
+  width: 98%;
+  height: 95vh;
+}
+
+.imagenHeroe__titulo {
+  color: #838588;
+  font-family: monospace;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 45px;
+  text-shadow: 5px 5px 3px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#textActive {
+  color: #4a534e;
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  word-spacing: 3px;
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.fondoMain {
+  background-image: url(../img/symphony/symphony.png);
+  background-attachment: fixed;
+  background-repeat: repeat-x repeat-y;
+}
+
+.containerPrinc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerPrinc__Subtitulo {
+  color: #5d5f5d;
+  font-style: italic;
+  font-size: 2.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  text-transform: none;
+  word-spacing: 3px;
+  line-height: 2rem;
+  text-shadow: 5px 3px 2px #b6b1b1;
+  padding-top: 15px;
+  position: relative;
+}
+
+.contendorStaff {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.ordenStaff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+/*aca le dije que aca uno de los del staff tenga un marge entre si de 16px y ademas que contengas un 100% de ancho*/
+.contenedorStaff .ordenStaff {
+  width: 100%;
+  margin: 16px;
+}
+
+/* selectores subtitulos en header AREAS DE PRACTICA*/
+.areaPrinc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 3px;
+}
+
+.areaPrinc__imgFondo--Titulo {
+  background-image: url(../img/justiciaciega.png);
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  color: beige;
+  font-size: 2.5em;
+  font-style: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  word-spacing: 3px;
+  text-shadow: 3px 3px 2px grey;
+}
+
+/*selector parrafo princ en areas de practica*/
+.parrafoPrincipal {
+  color: #474c49;
+  font-style: italic;
+  font-size: 1.7rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  line-height: 2.4rem;
+  word-spacing: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 3px 5px;
+}
+
+.textDark {
+  color: grey;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  line-height: 2rem;
+}
+
+/*selector para h4 de areas de practica*/
+/*selector para titulo de areas en main*/
+.subTitulo1 {
+  color: #8b6262;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}
+
+.subTitulo2 {
+  color: #855454;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}
+
+.subTitulo3 {
+  color: #694545;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}
+
+.subTitulo4 {
+  color: #704242;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}
+
+.subTitulo5 {
+  color: #363232;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}
+
+.contenedorAreas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (50%)[2];
+      grid-template-rows: repeat(2, 50%);
+  grid-gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+.itemsAreas {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2px;
+  border: 3px double burlywood;
+}
+
+.imgTransform:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  cursor: pointer;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/*ACA EMPIEZA PAGINA "PUBLICACIONES"*/
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 7px;
+}
+
+.div__fondo, .div__fondo--Tit {
+  background-image: url(../img/publicjur.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+}
+
+.div__fondo--Tit {
+  color: beige;
+  font-size: 2.5em;
+  font-style: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 3px 3px 2px grey;
+  word-spacing: 3px;
+}
+
+/*selector titulo princ*/
+.titPrincipal {
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 2px grey;
+  word-spacing: 3px;
+  line-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 3px 5px;
+}
+
+#sizeCarousel {
+  height: 50vh;
+  padding-bottom: 10px;
+}
+
+/* tabla de pagina publicaciones*/
+.sectionTabla {
+  font-size: 1.7em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  word-spacing: 3px;
+  line-height: 2rem;
+  padding-top: 10px;
+  border-spacing: 5px;
+}
+
+/*selector etiquetas de bordes de tabla en publicaciones*/
+section table {
+  border: 0.5em groove #724040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.textTabla {
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  word-spacing: 3px;
+  line-height: 3rem;
+}
+
+/*selectores form de contacto*/
+.sizeLegend {
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  word-spacing: 3px;
+}
+
+.botonPress {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#bbcdf5), to(#7985b6));
+  background-image: linear-gradient(to top, #bbcdf5, #7985b6);
+}
+
+.botonPress:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#7985b6), to(#bbcdf5));
+  background-image: linear-gradient(to top, #7985b6, #bbcdf5);
+}
+
+.textContacto {
+  color: #2c2436;
+  font-style: normal;
+  font-size: 2.3rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  word-spacing: 3px;
+  line-height: 2rem;
+}

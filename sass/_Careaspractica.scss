@@ -1,0 +1,111 @@
+/* selectores subtitulos en header AREAS DE PRACTICA*/
+
+.areaPrinc{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 3px;
+    
+}
+
+.areaPrinc__imgFondo--Titulo{
+    background-image: url(../img/justiciaciega.png);
+    background-attachment: scroll;
+    background-size: cover;
+    width: $widht;
+    height: ($height/4)*3;
+    color: beige;
+    font-size: 2.5em;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    word-spacing: 3px;
+    text-shadow: 3px 3px 2px grey ;
+}
+
+/*selector parrafo princ en areas de practica*/
+.parrafoPrincipal{
+    color: rgb(71, 76, 73);
+    font-style: italic;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+    text-decoration: solid;
+    line-height: 2.4rem;
+    word-spacing: 4px;
+    display: flex;
+    align-self: center;
+    padding: 3px 5px;
+}
+
+
+
+.textDark{
+    color: grey;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    line-height: 2rem;
+}
+
+/*selector para h4 de areas de practica*/
+/*selector para titulo de areas en main*/
+@mixin Titulo ($color) {
+    color:$color;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    word-spacing: 3px; 
+    
+} 
+.subTitulo1{
+   @include Titulo(rgb(139, 98, 98));
+}
+
+.subTitulo2{
+    @include Titulo(rgb(133, 84, 84));
+ }
+ .subTitulo3{
+    @include Titulo(rgb(105, 69, 69));
+ }
+ .subTitulo4{
+    @include Titulo(rgb(112, 66, 66));
+ }
+
+ .subTitulo5{
+    @include Titulo(rgb(54, 50, 50));
+ }
+
+.contenedorAreas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,50%);
+    grid-gap: 5px; 
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.itemsAreas{
+    display: grid;
+    justify-items:center;
+    align-items:center;
+    margin-top: 2px;
+    border: 3px double burlywood;
+}
+
+.imgTransform:hover{
+transform: scale(1.1,1.1);
+cursor: pointer;
+transition: 2s;
+}

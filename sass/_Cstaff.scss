@@ -1,0 +1,80 @@
+/*DETALLES DE PAGINA STAFF (NOSOTROS)*/
+/*selectores  para nombres de staff*/
+.imagenHeroe{
+    background-image: url(../img/fotostaff.png);
+    background-attachment: scroll;
+    background-size: cover;
+    width: ($widht)-2%;
+    height: ($height)-5vh;
+}
+
+.imagenHeroe__titulo{
+    color: rgb(131, 133, 136);
+   font-family: monospace;
+   font-weight: 600;
+   font-style: italic;
+   letter-spacing: 2px;
+   font-size: 45px;
+   text-shadow: 5px 5px 3px black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#textActive{
+    color: rgb(74, 83, 78);
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    word-spacing: 3px;
+    list-style-type:none;
+    line-height: 2rem;
+    }
+
+.fondoMain{
+    background-image: $fondogral;
+    background-attachment: fixed;
+    background-repeat: repeat-x repeat-y;
+}
+.containerPrinc{
+    display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;  
+}
+.containerPrinc__Subtitulo{
+    color: rgb(93, 95, 93);
+    font-style: italic;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    word-spacing: 3px;
+    line-height: 2rem;
+    text-shadow: 5px 3px 2px rgb(182, 177, 177);
+    padding-top: 15px;
+    position: relative;
+}
+
+.contendorStaff{
+margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ordenStaff{
+    display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-content: center; 
+}
+
+
+/*aca le dije que aca uno de los del staff tenga un marge entre si de 16px y ademas que contengas un 100% de ancho*/
+.contenedorStaff .ordenStaff{ 
+    width: $widht;
+    margin: 16px;
+}
+
+

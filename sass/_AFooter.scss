@@ -1,0 +1,14 @@
+.footer__ul{
+    background-image: linear-gradient(to bottom,rgb(149, 199, 157),rgb(76, 104, 81));
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 1px 5px
+}
+
+.icons{
+    width: 40px;
+}
+

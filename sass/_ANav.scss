@@ -1,0 +1,50 @@
+//estilos para el nav de header*/
+.colorNav{
+    background-image:$fondogral;
+    background-attachment: fixed;
+    background-repeat: repeat-x repeat-y;
+    
+ }
+ #colorNav{
+    background-image: $fondogral;
+    background-attachment: fixed;
+    background-repeat: repeat-x repeat-y; 
+    font-weight: 800;
+    font-size: 1rem;
+ }
+
+.header__logoSbg{
+    width: 30%;
+}
+
+.logoSbg{
+    width: 10%;
+}
+//estilos de la nav//
+.textBoton{
+    color: rgb(95, 93, 93);
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    
+}
+
+
+header nav ul li a:hover{
+    color: black;
+}
+//estructura de la nav/    
+.encabezadoNav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: stretch;
+    list-style: none;
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 15px 10px;
+    word-spacing: 5px;
+}

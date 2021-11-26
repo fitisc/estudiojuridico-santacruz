@@ -1,0 +1,49 @@
+/*selectores para imagen y frase heroe del index*/
+.textBlack{
+    background-color: rgb(228, 228, 231);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+        padding: 10px 25px;
+}
+
+.div__h1{
+    background-image: url(../img/plazasobremonteytribunales.png);
+    background-repeat: no-repeat;
+    object-fit: cover cover;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;/* aca el tamaño que vos eligas*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+.div__h1--text{
+    color: rgb(245, 246, 247);
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    text-shadow: 5px 5px 3px black;
+    font-weight: 600;
+}
+
+.article__h2{
+    color: rgb(87, 84, 84);
+    font-style: italic;
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-align: left;
+    word-spacing: 2px;
+    padding: 3px;
+    position: absolute;
+}
+
+
