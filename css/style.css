@@ -470,7 +470,6 @@ header nav ul li a:hover {
   transition: 2s;
 }
 
-/*ACA EMPIEZA PAGINA "PUBLICACIONES"*/
 .div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,6 +490,24 @@ header nav ul li a:hover {
   margin-top: 7px;
 }
 
+@media (max-width: 400px) {
+  .div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-whidht: 768px) {
+  .div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .div__fondo, .div__fondo--Tit {
   background-image: url(../img/publicjur.jpg);
   background-attachment: scroll;
@@ -506,11 +523,10 @@ header nav ul li a:hover {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   text-align: center;
-  text-shadow: 3px 3px 2px grey;
+  text-shadow: 3px 3px 2px #d4d1d1;
   word-spacing: 3px;
 }
 
-/*selector titulo princ*/
 .titPrincipal {
   font-size: 2em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -539,7 +555,6 @@ header nav ul li a:hover {
   padding-bottom: 10px;
 }
 
-/* tabla de pagina publicaciones*/
 .sectionTabla {
   font-size: 1.7em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -554,7 +569,6 @@ header nav ul li a:hover {
   border-spacing: 5px;
 }
 
-/*selector etiquetas de bordes de tabla en publicaciones*/
 section table {
   border: 0.5em groove #724040;
   display: -webkit-box;
