@@ -19,6 +19,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow-x: hidden;
 }
 
 html {
@@ -144,11 +145,15 @@ header nav ul li a:hover {
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
-  padding: 1px 5px;
+  padding: 3px 5px;
 }
 
 .icons {
   width: 40px;
+}
+
+#logoSbg {
+  width: 30%;
 }
 
 /*selectores para imagen y frase heroe del index*/
@@ -221,6 +226,8 @@ header nav ul li a:hover {
   background-image: url(../img/fotostaff.png);
   background-attachment: scroll;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 98%;
   height: 95vh;
 }
@@ -287,7 +294,8 @@ header nav ul li a:hover {
   word-spacing: 3px;
   line-height: 2rem;
   text-shadow: 5px 3px 2px #b6b1b1;
-  padding-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -321,6 +329,22 @@ header nav ul li a:hover {
 .contenedorStaff .ordenStaff {
   width: 100%;
   margin: 16px;
+}
+
+.cardParrafo {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+}
+
+.botonColor:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#95c79d), to(#4c6851));
+  background-image: linear-gradient(to bottom, #95c79d, #4c6851);
+  color: #f2faf6;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 /* selectores subtitulos en header AREAS DE PRACTICA*/
@@ -448,13 +472,14 @@ header nav ul li a:hover {
   padding-bottom: 40px;
 }
 
-.itemsAreas {
+.contenedorAreas .itemsAreas {
   display: grid;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2px;
+  padding: 10px;
   border: 3px double burlywood;
 }
 
@@ -464,6 +489,21 @@ header nav ul li a:hover {
   cursor: pointer;
   -webkit-transition: 2s;
   transition: 2s;
+}
+
+.imgForm {
+  padding: 5px;
+  margin: 5px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.parrafoForm {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .div {
@@ -689,6 +729,7 @@ section table {
 .buttonContainer .buttonVolver:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#b5e4bd), to(#6e9475));
   background-image: linear-gradient(to top, #b5e4bd, #6e9475);
+  cursor: pointer;
 }
 
 #colorButtons {

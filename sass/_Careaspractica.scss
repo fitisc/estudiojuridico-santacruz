@@ -96,16 +96,31 @@
     padding-bottom: 40px;
 }
 
-.itemsAreas{
+.contenedorAreas .itemsAreas{
     display: grid;
     justify-items:center;
     align-items:center;
     margin-top: 2px;
+    padding: 10px;
     border: 3px double burlywood;
 }
 
 .imgTransform:hover{
-transform: scale(1.1,1.1);
-cursor: pointer;
-transition: 2s;
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.imgForm{
+    padding: 5px;
+    margin: 5px;
+    object-fit: fill;
+}
+
+.parrafoForm{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }

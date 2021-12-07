@@ -9,6 +9,7 @@ body{
     display: flex;
         flex-direction: column;
         justify-content: space-between;
+    overflow-x: hidden;
 }
 //fondos//
 $fondogradientverde:linear-gradient(to bottom,rgb(149, 199, 157),rgb(76, 104, 81));
