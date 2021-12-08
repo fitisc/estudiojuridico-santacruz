@@ -92,29 +92,34 @@
     justify-content: center;
     align-content: center;
     height: 100%;
-    padding-top: 5px;
-    padding-bottom: 40px;
+    @media (max-whidht: 400px){
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        grid-gap: 5px;
+
+    }
+    @media (max-whidht: 768px){
+       
+    }
 }
 
 .contenedorAreas .itemsAreas{
     display: grid;
     justify-items:center;
     align-items:center;
-    margin-top: 2px;
-    padding: 10px;
     border: 3px double burlywood;
+    margin: 10px;
+    padding: 5px;
 }
 
 .imgTransform:hover{
     transform: scale(1.1,1.1);
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
 }
 
 .imgForm{
-    padding: 5px;
-    margin: 5px;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .parrafoForm{

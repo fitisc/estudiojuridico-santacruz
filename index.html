@@ -20,26 +20,19 @@
     </head>
 <body>
   <header id="nav">
-    <div class="ordenDiv"> 
-      <h5 class="div__h5--horario">Horario de atención: 9 hr a 20 hr</h5>
-      <h5 class="div__h5--direccion">Dirección: Caseros 617 2° piso of B - Córdoba </h5>
-      <h5 class="div__h5--telefono">Telefono fijo: 0351 422-1006</h5>
-    </div>
         <!--inicia navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="colorNav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo sgb (1).png" alt="logoSbg" width="30%">
+        <div>
+        <a class="navbar-brand" href="index.html" >
+          <img src="img/logo sgb (1).png" alt="logoSbg" width="30%" class="header__logoSgb"><p class="textFonts">SALAS GARRIDO & BERNOCCO<br>Estudio Juridico</p>
         </a>
-        <p>Salas Garrido & Bernocco <br>Estudio Juridico</p>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
-            </li>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 textBoton">
             <li class="nav-item">
               <a class="nav-link" href="staff.html">NOSOTROS</a>
             </li>
@@ -79,13 +72,36 @@
                 </nav>
             </div>
         </section>
-<!--finaliza breadcrums-->
-    <div class="div__h1">
-      <h1 class="div__h1--text">SALAS GARRIDO & BERNOCCO <br> "La injusticia en cualquier parte es una amenaza a la justicia en todas partes."<br> Martin Luther King,Jr</h1>  
-    </div>          
+<!--finaliza breadcrums-->         
   </header>
         <!--pagina de inicio para presentacion del estudio-->
   <main id="main" class="textBlack"> 
+    <h2 class="text-center">ASESORAMIENTO JURIDICO</h2>
+    <h3 class="text-center">Excelencia y dedicacion a nuestros clientes</h3>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+      <div class="carousel-inner" id="sizeCarousel">
+        <div class="carousel-item active">
+          <img src="img/plazasobremonteytribunales (2).png" class="d-block w-100" alt="paseo sobremonte">
+        </div>
+        <div class="carousel-item">
+          <img src="img/panoramicatribunales (2).png" class="d-block w-100" alt="tribunales">
+        </div>
+        <div class="carousel-item">
+          <img src="img/fotoestudiosgb1 (1).png" class="d-block w-100" alt="foto estudio">
+        </div>
+        <div class="carousel-item">
+          <img src="img/fotostaff (4).png" class="d-block w-100" alt="foto staff">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
             <!--se describe brevemente areas de trabajo para informar al cliente con una lectura rapida-->
     <section class="py-2">       
       <div class="container-fluid wow bounceInUp" data-wow-duration = "2s" data-wow-delay = "0s">
@@ -95,14 +111,14 @@
           </article>
       
           <article class="col-lg-4 col-ms-2 text-center">
-            <img src="img/derecivycom.png" class="rounded" alt="foto derecho civil y comercial" width="70%" class="w-100">   
+            <img src="img/derecivycom (1).png" class="rounded" alt="foto derecho civil y comercial" width="70%" class="w-100">   
             <h3 class="text-primary"><strong> DERECHO CIVIL Y COMERCIAL </strong></h3>
             <p class="text-center">Declaratoria de herederos <br>Desalojo <br>Acciones Reales<br>Cobranzas<br>Asesoramiento societario<br>Barrios Privados</p>
           </article>
           <article class="col-lg-4 col-ms-2 text-center">
             <img src="img/derlaboral.png" class="rounded" alt="foto derecho laboral" width="70%" class="w-100">   
             <h3 class="text-primary"><strong> DERECHO LABORAL </strong></h3>
-            <p class="text-center">Despidos<br>ART <br>Defensas Patronales<br>Buenos Aires<br>Córdoba<br>Santa Fe <br>San Luis </p>
+            <p class="text-center">Despidos<br>ART <br>Defensas Patronales<br>Buenos Aires<br>Córdoba<br>Santa Fe/San Luis </p>
           </article>        
         </div>  
       </div>   

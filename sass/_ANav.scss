@@ -13,12 +13,17 @@
     font-size: 1rem;
  }
 
-.header__logoSbg{
+.header__logoSgb{
     width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .logoSbg{
     width: 10%;
+    
 }
 //estilos de la nav//
 .textBoton{
@@ -30,6 +35,14 @@
     text-decoration-line: none;
     text-transform: uppercase;
     
+}
+
+.textFonts{
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 
