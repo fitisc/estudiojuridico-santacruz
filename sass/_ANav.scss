@@ -13,12 +13,21 @@
     font-size: 1rem;
  }
 
-.header__logoSgb{
-    width: 30%;
+.headerTop{
     display: flex;
-    flex-direction: row;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    background-image: linear-gradient(to top,rgba(207, 211, 208, 0.863),rgb(131, 153, 135));
+    background-position: top;
+    background-size: cover;
+}
+
+.headerTop__logoSgb{
+    width: 40%;
     justify-content: center;
     align-items: center;
+    padding: auto;
 }
 
 .logoSbg{
@@ -43,21 +52,22 @@
     text-shadow: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    text-shadow: 1px 1px 1px rgb(80, 79, 79);
 }
 
 
 header nav ul li a:hover{
     color: black;
+    text-decoration-line: underline;
 }
 //estructura de la nav/    
 .encabezadoNav{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    align-items: stretch;
+    justify-content:space-between;
+    align-items: flex-start;
     list-style: none;
     list-style-type: none;
-    margin: 0 10px;
     padding: 15px 10px;
     word-spacing: 5px;
 }

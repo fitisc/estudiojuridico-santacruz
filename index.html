@@ -20,14 +20,17 @@
     </head>
 <body>
   <header id="nav">
+    <div class="headerTop">
+      <a href="index.html">
+        <img src="img/logo sgb (1).png" alt="logoSgb" width="30%" class="headerTop__logoSgb">
+      </a>
+      <h1 class="textFonts">SALAS GARRIDO & BERNOCCO <br>Estudio Juridico</h1>
+      
+    </div>
+    
         <!--inicia navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="colorNav">
-      <div class="container-fluid">
-        <div>
-        <a class="navbar-brand" href="index.html" >
-          <img src="img/logo sgb (1).png" alt="logoSbg" width="30%" class="header__logoSgb"><p class="textFonts">SALAS GARRIDO & BERNOCCO<br>Estudio Juridico</p>
-        </a>
-        </div>
+      <div class="container-fluid encabezadoNav">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,10 +56,7 @@
               <a class="nav-link" href="contacto.html">CONTACTO</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          
         </div>
       </div>
     </nav>
@@ -75,9 +75,9 @@
 <!--finaliza breadcrums-->         
   </header>
         <!--pagina de inicio para presentacion del estudio-->
-  <main id="main" class="textBlack"> 
-    <h2 class="text-center">ASESORAMIENTO JURIDICO</h2>
-    <h3 class="text-center">Excelencia y dedicacion a nuestros clientes</h3>
+  <main id="main" class="textBlack spaceMain"> 
+    <h3 class="text-center textSubt">ASESORAMIENTO JURIDICO</h3>
+    <h3 class="text-center textSubt">"Excelencia y dedicacion a nuestros clientes"</h3>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
       <div class="carousel-inner" id="sizeCarousel">
         <div class="carousel-item active">
@@ -104,7 +104,7 @@
   </div>
             <!--se describe brevemente areas de trabajo para informar al cliente con una lectura rapida-->
     <section class="py-2">       
-      <div class="container-fluid wow bounceInUp" data-wow-duration = "2s" data-wow-delay = "0s">
+      <div class="container-fluid spaceMain wow bounceInUp" data-wow-duration = "2s" data-wow-delay = "0s">
         <div class="row">
           <article class="col-lg-4 col-ms-2 text-center wow slideInLeft" data-wow-duration = "2s" data-wow-delay = "0s">
             <h2 class="article__h2">En pleno centro cordobés... <br> A metros del Palacio de Justicia... <br> ESTUDIO JURIDICO <br> SALAS GARRIDO & BERNOCCO <br> Atención personalizada <br> con especialistas en:</h2>
@@ -128,11 +128,17 @@
   
   <footer id="pie" >
     <ul class="footer__ul">
-      <li><a href="index.html" rel="follow"> 
-        <img src="img/logo sgb (1).png" alt="logo-inicio" width="30%" >
+      <li><a href="index.html"> 
+          <img src="img/logo sgb (1).png" alt="logo sgb" id="logoSbg">
           </a>
-        </li>
-        <p><strong class="subTitulo5"> PODES ENCONTRARNOS EN</strong></p>
+      </li>
+      <li class="listDatos">
+          <h5>Cordoba Capital:</h5>
+          <h5>Horario de atención: 9 hr a 20 hr</h5>
+          <h5>Dirección: Caseros 617 2° piso of B - Córdoba</h5>
+          <h5>Telefono fijo: 0351 422-1006</h5>
+      </li>
+      <h5 class="listDatos">PODES ENCONTRARNOS EN</h5>
         <li><a href="https://www.facebook.com/Salas-Garrido-Bernocco-687572411703343/about/?ref=page_internal" target="_blank">
           <img src="img/facebook.png" alt="facebook" class="icons">
             </a>
