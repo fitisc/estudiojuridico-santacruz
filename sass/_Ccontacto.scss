@@ -3,6 +3,20 @@
   padding-left: 60px;
   padding-bottom: 15px;
 }
+
+.tituloContacto{
+    color: rgb(131, 133, 136);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 600;
+   font-style: normal;
+   letter-spacing: 2px;
+   font-size: 30px;
+   text-shadow: 2px 2px 1px black;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding-bottom: 10px;
+}
 .sizeLegend{
     font-style: normal;
     font-family: 'Lato', sans-serif;
@@ -16,6 +30,9 @@
 }
 .botonPress:hover{
     background-image: linear-gradient(to top, rgb(121, 133, 182), rgb(187, 205, 245));
+    transform: scale(1,1);
+    cursor: pointer;
+    
 }
 
 .textContacto{

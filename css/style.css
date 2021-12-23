@@ -189,14 +189,14 @@ header nav ul li a:hover {
 }
 
 #logoSbg {
-  width: 30%;
+  width: 40%;
 }
 
 .listDatos {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 1.5rem;
-  word-spacing: 1.5px;
+  word-spacing: 1px;
 }
 
 /*selectores para imagen y frase heroe del index*/
@@ -268,10 +268,9 @@ header nav ul li a:hover {
   font-size: 2rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   word-spacing: 2px;
   padding: 3px;
-  position: absolute;
 }
 
 /*DETALLES DE PAGINA STAFF (NOSOTROS)*/
@@ -288,12 +287,12 @@ header nav ul li a:hover {
 
 .imagenHeroe__titulo {
   color: #838588;
-  font-family: monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: 2px;
   font-size: 45px;
-  text-shadow: 5px 5px 3px black;
+  text-shadow: 2px 2px 1px black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -343,11 +342,10 @@ header nav ul li a:hover {
   font-size: 2.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   text-transform: none;
   word-spacing: 3px;
   line-height: 2rem;
-  text-shadow: 5px 3px 2px #b6b1b1;
   padding-top: 30px;
   padding-bottom: 30px;
   position: relative;
@@ -383,6 +381,10 @@ header nav ul li a:hover {
 .contenedorStaff .ordenStaff {
   width: 100%;
   margin: 16px;
+}
+
+.cardSubtitulo {
+  font-size: 1rem;
 }
 
 .cardParrafo {
@@ -427,7 +429,7 @@ header nav ul li a:hover {
   color: beige;
   font-size: 2.5em;
   font-style: normal;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   text-align: center;
   word-spacing: 3px;
@@ -525,11 +527,16 @@ header nav ul li a:hover {
 }
 @media (max-whidht: 400px) {
   .contenedorAreas {
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
+    grid-template-columns: 1/2;
+  }
+}
+@media (max-whidht: 768px) {
+  .contenedorAreas {
+    grid-columns: 1/2;
     grid-gap: 5px;
   }
 }
+
 .contenedorAreas .itemsAreas {
   display: grid;
   justify-items: center;
@@ -610,10 +617,10 @@ header nav ul li a:hover {
   color: beige;
   font-size: 2.5em;
   font-style: normal;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   text-align: center;
-  text-shadow: 3px 3px 2px #d4d1d1;
+  text-shadow: 3px 3px 2px grey;
   word-spacing: 3px;
 }
 
@@ -691,6 +698,26 @@ section table {
   padding-bottom: 15px;
 }
 
+.tituloContacto {
+  color: #838588;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 10px;
+}
+
 .sizeLegend {
   font-style: normal;
   font-family: "Lato", sans-serif;
@@ -707,6 +734,9 @@ section table {
 .botonPress:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#7985b6), to(#bbcdf5));
   background-image: linear-gradient(to top, #7985b6, #bbcdf5);
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  cursor: pointer;
 }
 
 .textContacto {
