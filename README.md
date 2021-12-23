@@ -11,3 +11,4 @@ elimine pag media queries en sass,
 agregue .gitignore con node_modules/
 7 diciembre: borre fotos jpg y agregue fotos en png con igual tamaño. 
 modifique en algunas paginas la botonera y el footer para ver cmo quedaban. 
+diciembre: modifique nav bar, estructura header, footer.
