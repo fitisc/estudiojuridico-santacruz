@@ -383,10 +383,6 @@ header nav ul li a:hover {
   margin: 16px;
 }
 
-.cardSubtitulo {
-  font-size: 1rem;
-}
-
 .cardParrafo {
   overflow: hidden;
   text-overflow: ellipsis;

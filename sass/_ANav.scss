@@ -18,7 +18,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    background-image: linear-gradient(to top,rgba(207, 211, 208, 0.863),rgb(131, 153, 135));
+    background-image: $fondogradient;
     background-position: top;
     background-size: cover;
 }
