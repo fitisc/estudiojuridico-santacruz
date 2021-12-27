@@ -94,12 +94,14 @@
     height: 100%;
     grid-template-areas: "article1 article2" "article3 article4";
     @media (min-whidht: 400px){
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
         grid-template-areas: "article1" "article2" "article3" "article4";
         
     }
     @media (min-whidht: 768px){
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
         grid-template-areas: "article1" "article2" "article3" "article4";
         grid-gap: 5px;
     }
